@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 
 # from eian.main import app
-from backend.src.eian.main import app
+from eian.main import app
 
 
 def test_health() -> None:
